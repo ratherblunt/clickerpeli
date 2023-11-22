@@ -1,0 +1,88 @@
+* {
+    background-color: rgb(156, 35, 156)
+}
+
+.container {
+    height: 500px;
+    position: relative;
+
+}
+
+.center {
+    margin: 0px;
+    position: absolute;
+    top: 90%;
+    left: 49%;
+    -ms-transform: translateY(-50%, -50%);
+    transform: translateY(-50%, -50%);
+}
+
+
+.text-center {
+    margin: 0px;
+    position: fixed;
+    top: 70%;
+    right: 47%;
+
+}
+
+
+.button-center {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 53%;
+}
+
+button#upgradeButton {
+    border: 2px solid black;
+    background-color: rgb(137, 17, 155);
+    color: black;
+    padding: 28px 30px;
+    font-size: 26px;
+    cursor: pointer;
+    border-color: #fff;
+    color: #ffffff;
+    transition-duration: 0.3s;
+
+}
+
+button#upgradeButton:hover {
+    background-color: #6d6d6d;
+    cursor: pointer;
+
+}
+
+
+img {
+    width: 570px;
+    height: 370px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+img:active {
+    width: 580px;
+    height: 380px;
+    cursor: pointer;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    margin: -250px;
+
+
+}
+
+
+
+
+
+
+p {
+
+    margin: -45px;
+    color: rgb(255, 255, 255);
+    font-size: 225%;
+}
